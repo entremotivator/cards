@@ -12,7 +12,6 @@ pathlib
 typing
 dataclasses
 enum34
-io
 hashlib
 datetime
 
