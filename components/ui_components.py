@@ -33,20 +33,20 @@ class PhotoshopUI:
         </head>
         <body>
             <div class="app-container">
-                {PhotoshopUI._render_menu_bar()}
-                {PhotoshopUI._render_toolbar()}
+                {UIComponentManager._render_menu_bar()}
+                {UIComponentManager._render_toolbar()}
                 
                 <div class="main-content">
-                    {PhotoshopUI._render_left_panel()}
-                    {PhotoshopUI._render_canvas_area(canvas_config)}
-                    {PhotoshopUI._render_right_panel()}
+                    {UIComponentManager._render_left_panel()}
+                    {UIComponentManager._render_canvas_area(canvas_config)}
+                    {UIComponentManager._render_right_panel()}
                 </div>
                 
-                {PhotoshopUI._render_status_bar()}
+                {UIComponentManager._render_status_bar()}
             </div>
             
             <script>
-                {PhotoshopUI._render_javascript(canvas_config)}
+                {UIComponentManager._render_javascript(canvas_config)}
             </script>
         </body>
         </html>
